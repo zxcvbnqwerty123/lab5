@@ -19,7 +19,7 @@ public:
 	Fraction& operator /=(Fraction  const& v);
 	Fraction operator -() const;
 	Fraction& operator +(Fraction & v);
-	Fraction& operator -(Fraction  const& v);
+	Fraction& operator -(Fraction& v);
 	Fraction& operator *(Fraction  const& v);
 	Fraction& operator /(Fraction  const& v);
 };

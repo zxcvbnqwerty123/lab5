@@ -60,8 +60,9 @@ Fraction Fraction::operator-() const
 
 Fraction& Fraction::operator+(Fraction& v)
 {
-	v += *this;
-	return v;
+	Fraction result(*this);
+	result += v;
+	return result;
 }
 
 
